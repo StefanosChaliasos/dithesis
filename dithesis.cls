@@ -334,9 +334,9 @@ publications}\gdef\@lopfileinternal{#1}}
 
       {\bfseries
       \ifenglishfrontpage
-      	BSc THESIS
+      	MSc THESIS
       \else
-      	ΠΤΥΧΙΑΚΗ ΕΡΓΑΣΙΑ
+      	ΔΙΠΛΩΜΑΤΙΚΗ ΕΡΓΑΣΙΑ
       \fi}
       \linebreak\linebreak
 
@@ -397,9 +397,9 @@ publications}\gdef\@lopfileinternal{#1}}
     \vspace*{1.5cm}
     {\bfseries
     \ifenglishcommitteepage
-    	BSc THESIS
+    	MSc THESIS
     \else
-    	ΠΤΥΧΙΑΚΗ ΕΡΓΑΣΙΑ
+    	ΔΙΠΛΩΜΑΤΙΚΗ ΕΡΓΑΣΙΑ
     \fi
     }
     \linebreak
@@ -494,7 +494,7 @@ publications}\gdef\@lopfileinternal{#1}}
 % Greek synopsis of the thesis
 %
 \def\@synopsis{
-  \chapter*{ΣΥΝΟΠΤΙΚΗ ΠΑΡΟΥΣΙΑΣΗ ΤΗΣ ΔΙΔΑΚΤΟΡΙΚΗΣ ΔΙΑΤΡΙΒΗΣ}
+  \chapter*{ΣΥΝΟΠΤΙΚΗ ΠΑΡΟΥΣΙΑΣΗ ΤΗΣ ΔΙΠΛΩΜΑΤΙΚΗΣ ΕΡΓΑΣΙΑΣ}
   \thispagestyle{empty}
   \@synopsisGr{}
   \clearpage
