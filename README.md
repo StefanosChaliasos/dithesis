@@ -14,10 +14,13 @@ brew cask install mactex-no-gui font-computer-modern
 
 On Ubuntu/Debian:
 ```bash
-sudo apt install texlive texlive-xetex texlive-lang-greek texlive-bibtex-extra latexmk
+sudo apt install texlive texlive-xetex texlive-lang-greek texlive-bibtex-extra latexmk ttf-mscorefonts-installer fonts-cmu
 ```
 
 On Windows, download the [TeXLive](https://tug.org/texlive/acquire-netinstall.html) or the [MiKTeX](https://miktex.org/download) installer, respectively.
 
 ### Compiling
-Once you have [TeXLive](https://www.tug.org/texlive/) (Linux/macOS/Windows) or [MacTeX](http://www.tug.org/mactex/) (macOS) installed, `cd` to the project root directory and run `latexmk`. You will find the output in the `build` directory.
+
+```bash
+make
+```
