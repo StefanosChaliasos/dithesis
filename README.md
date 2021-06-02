@@ -1,5 +1,5 @@
 ## dithesis
-Thesis class for undergraduate theses at the University of Athens
+Thesis class for postgraduate theses at the University of Athens
 
 ### Dependencies
 - You will need the [Computer Modern](https://www.fontsquirrel.com/fonts/computer-modern) fonts.
